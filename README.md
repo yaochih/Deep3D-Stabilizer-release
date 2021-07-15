@@ -23,10 +23,10 @@ This repository contains the pytorch implementations of the Deep3D Stabilizer.
 (please refer to the official [PWC-Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch) and its [issue](https://github.com/NVlabs/PWC-Net/issues/76#issuecomment-513803385))
 
 ### Running
-To test your own video to be stabilized, run the command below. The stabilized video will be saved in ```outputs/test``` by default.
+To test your own video to be stabilized, run the commands below. The stabilized video will be saved in ```outputs/test``` by default.
 ```bash
-python3 geometry_optimizer.py [your-video-path] --name test
-python3 rectify.py [your-video-path] --name [same-as-above] --stability [default=12]
+python3 geometry_optimizer.py [your-video-path] [--name default=test]
+python3 rectify.py [your-video-path] [--name same-as-above] [--stability default=12]
 ```
 
 #### Stability Manipulation
