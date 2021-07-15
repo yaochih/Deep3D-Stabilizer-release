@@ -44,7 +44,8 @@ If you have run ```geometry_optimizer.py``` for the video, you may run ```rectif
     pages     = {10621-10630}
 }
 ```
+### License
+The provided implementation is strictly for academic purposes only.
 
 ### Acknowledgement
-We thank the authors for releasing [SC-SfMLearner](https://github.com/JiawangBian/SC-SfMLearner-Release), [monodepth2](https://github.com/nianticlabs/monodepth2), and [PWC-Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch)
-	
+We thank the authors for releasing [SC-SfMLearner](https://github.com/JiawangBian/SC-SfMLearner-Release), [monodepth2](https://github.com/nianticlabs/monodepth2), and [PWC-Net](https://github.com/NVlabs/PWC-Net/tree/master/PyTorch).
