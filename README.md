@@ -30,7 +30,7 @@ python3 rectify.py [your-video-path] --name [same-as-above] --stability [default
 ```
 
 #### Stability Manipulation
-If you have run ```geometry_optimizer.py``` for the video, you may run ```rectify.py``` for the **same** video with different ```--stability``` to manipulate the stability efficiently.
+If you have run ```geometry_optimizer.py``` for the video, you may run ```rectify.py``` for the **same** video multiple times with different ```--stability``` to manipulate the stability efficiently.
 
 ---
 ### Citation
