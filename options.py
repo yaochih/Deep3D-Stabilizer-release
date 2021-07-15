@@ -12,7 +12,7 @@ import argparse
 
 class Options:
     def __init__(self):
-        self.parser = argparse.ArgumentParser(description="Depth Regressor options")
+        self.parser = argparse.ArgumentParser(description="Deep3D stabilizer options")
 
         # RUN COMMAND
         self.parser.add_argument('video_path',
