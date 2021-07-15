@@ -6,6 +6,11 @@ This repository contains the pytorch implementations of the Deep3D Stabilizer.
 
 [![teaser](https://yaochih.github.io/deep3d-stabilizer.io/img/pipeline.png)](https://www.youtube.com/watch?v=pMluFVA7NDQ)
 
+### Contribution
+- The first 3D-based CNN method for video stabilization without training data.
+- Handle parallax effect more properly leveraging 3D motion model.
+- Allow users to manipulate the stability of a video efficiently.
+
 ---
 ### Environment
 - **Main program**
