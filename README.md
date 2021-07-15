@@ -15,8 +15,8 @@ This repository contains the pytorch implementations of the Deep3D Stabilizer.
 ### Setup
 - **Main program**
 	- Python3.5+ and Pytorch 1.4.0+
-	- Other dependencies
- `apt-get install ffmpeg`
+	- Other dependencies \
+ `apt-get install ffmpeg` \
  `pip3 install opencv-python scipy tqdm path imageio scikit-image pypng`
 
 - **PWC-Net** for getting optical flow as preprocessing
