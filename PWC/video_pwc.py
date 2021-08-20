@@ -12,15 +12,8 @@ Contact: Deqing Sun (deqings@nvidia.com); Zhile Ren (jrenzhile@gmail.com)
 """
 
 video_dir = sys.argv[1]
-#print(os.path.join(video_frames_dir, '*.png'))
 interval = int(sys.argv[2])
 frame_names = sorted(list(glob.glob(os.path.join(video_dir, 'images/*.png'))))
-#print(len(frame_names))
-#video_frames_dir = os.path.split(video_frames_txt)[0]
-#frame_names = open(video_frames_txt, 'r').readlines()
-#frame_names = frame_names[len(frame_names)//2:]
-#frame_names = [os.path.join(video_frames_dir, name.rstrip('\n')) for name in frame_names]
-
 
 pwc_model_fn = './pwc_net.pth.tar';
 net = models.pwc_dc_net(pwc_model_fn)
